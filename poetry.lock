@@ -118,6 +118,16 @@ test = ["hypothesis (>=6.46.1)", "pytest (>=7.3.2)", "pytest-xdist (>=2.2.0)"]
 xml = ["lxml (>=4.9.2)"]
 
 [[package]]
+name = "pandas007"
+version = "1.0.0"
+description = "A simple Python package"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "pandas007-1.0.0.tar.gz", hash = "sha256:a4602bf146b156bfe9d8076b2aa97444f18cda9a34c7db7b2bd32f020b1f9965"},
+]
+
+[[package]]
 name = "python-dateutil"
 version = "2.9.0.post0"
 description = "Extensions to the standard Python datetime module"
@@ -167,4 +177,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.10.0,<3.12"
-content-hash = "19e99c002ff728f6500fa91d2dc494dfce78764f5187b9a445554779425f9ac1"
+content-hash = "263414897431bd425c1007b7dc825fa65c17cfdf2ad9236dff64d84b8ef8df80"
